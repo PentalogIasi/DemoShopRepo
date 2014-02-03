@@ -1,0 +1,168 @@
+﻿@{
+    ViewBag.Title = "Product Store";
+}
+
+
+@section scripts { 
+    <style type="text/css">
+    </style>
+
+    <script src="@Url.Content("~/Scripts/knockout-2.1.0.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/ko.datasource.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/knockout.mapping-latest.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/knockout.viewmodel.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/Script.js")" type="text/javascript"></script>
+    
+    <script type="text/html" id="products-template">
+            <tr>
+                <td data-bind="text: Id"></td>
+                <td data-bind="text: Name"></td>
+                <td><select data-bind="options: $root.availableCategories, optionsText: 'categoryName', optionValue: 'ID', value: CategoryID"></select></td>
+                <td data-bind="text: formattedPrice"></td>
+                <td><a href="#" data-bind="click: $root.removeProduct">Remove</a></td>
+            </tr>
+    </script>
+
+@*<script type="text/html" id="upload-template">
+   <li>
+        <span>Uploaded: <small data-bind="text: name"></small>.</span><span>
+            Size: <small data-bind="text: size"></small>kB
+        </span><span>
+            Server path: <a data-bind="attr: { href: path }, text: path"></a>
+        </span>
+    </li>
+</script>*@
+}
+
+@*<div id="ulbox">
+    <span>Drop your s*** here...</span>
+</div>*@
+
+@*<ul data-bind="template: { name: 'upload-template', foreach: uploads }"></ul>*@
+
+@*<form action="/api/uploading" method="post" enctype="multipart/form-data">
+    <label for="somefile">File</label>
+    <input name="somefile" type="file" multiple />
+    <input type="submit" value="Submit" />
+</form>*@
+
+<div id="body">
+    <section class="content-wrapper main-content">
+        <h3>Products</h3>
+        <h5>Nr of products (<span data-bind="text: products().length"></span>)</h5>
+        <table id="products">
+            <thead>
+                <tr><th>ID</th><th>Name</th><th>Category</th><th>Price</th></tr>
+            </thead>
+            <tbody data-bind="template: { name: 'products-template', foreach: products }">
+            </tbody>
+        </table>
+    </section>
+    
+    <section class="content-wrapper main-content" data-bind="with: resultData1">
+        <table>
+            <thead>
+                <tr><th>Service</th><th>Source</th><th>Description</th></tr>
+            </thead>
+            <tbody data-bind="foreach: topTweets">
+                <tr>
+                    <td data-bind="text: Service"></td>
+                    <td data-bind="text: Source"></td>
+                    <td data-bind="text: Description"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                  <td colspan="7">
+                   <button data-bind="click: $root.previousPage" class="btn"><i class="icon-step-backward"></i></button>
+                    Page<label data-bind="text: $root.currentPageIndex() + 1" class="badge"></label>
+                   <button data-bind="click: $root.nextPage" class="btn"><i class="icon-step-forward"></i></button>
+                  </td>
+                </tr>
+            </tfoot>
+        </table>
+      
+    </section>
+
+    <section id="detail" class="content-wrapper">
+
+        <div>
+            <h3 data-bind="visible: showTotal() > 0">
+                Total: $<span data-bind="text: showTotal()"></span>
+            </h3>
+            <h3 data-bind="visible: totalSum() > 0">
+                Total: $<span data-bind="text: totalSum().toFixed(2)"></span>
+            </h3>
+        </div>
+
+
+    <div data-bind="template: { name: 'creditorsTmpl', foreach: creditors }"></div>
+
+    <div id="tabs"> <!-- div for jQuery UI tabs -->
+	    <ul>
+		    <li><a href="#viewTab">View Product</a></li>
+		    <li><a href="#addNewTab">Add New Product</a></li>
+	    </ul>
+
+        <div id="viewTab">
+            <div>
+                <label for="productId">ID</label>
+                <input type="text" title="ID" name='Id' id="productId" size="5" />
+                <input type="button" value="Get" data-bind="click: getById" />
+            </div>
+
+            
+            @*<div>
+            <label for="category">Category</label>
+                <input data-bind="value: product().Category" type="text" title="Category" id="category" />
+            </div>*@
+            <div data-bind="if: product()">
+                <div data-bind="with: userdata">
+                    <label for="name">Name</label>
+                    <input data-bind="value: Name" type="text" title="Name" id="name" />
+                    <br />
+                    <label for="category">Category</label>
+                    <select data-bind="options: $root.availableCategories, optionsText: 'categoryName', optionValue: 'ID', value: CategoryID" id="category"></select>
+                    <label for="price">Price</label>
+                    <input data-bind="value: Price" type="text" title="Price" id="price" /><br />
+                    <div>
+                        <input type="button" value="Update" data-bind="click: update" />
+                    </div>
+                </div>
+               
+            </div>
+
+            <div data-bind="ifnot: product">
+                <p>Click on GET to view a product</p>
+            </div>
+        </div>
+
+        <div id="addNewTab">
+            <div>
+            <label for="name">Name</label>
+            <input type="text" title="Name" id="name2" />
+            </div>
+
+            <div>
+            <label for="category">Category</label>
+            <input type="text" title="Category" id="category2" />
+            </div>
+
+            <div>
+            <label for="price">Price</label>
+            <input type="text" title="Price" id="price2" />
+            </div>
+
+            <div>
+                <button data-bind="click: create, enable: products().length < 5">Add New</button>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <p id="status" data-bind="text: status" />
+    </div>
+
+    </section>
+</div>
+

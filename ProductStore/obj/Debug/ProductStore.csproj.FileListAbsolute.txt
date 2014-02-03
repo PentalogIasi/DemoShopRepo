@@ -1,0 +1,102 @@
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\ProductStore.dll.config
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\ProductStore.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\ProductStore.pdb
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\Antlr3.Runtime.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\EntityFramework.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\Newtonsoft.Json.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Net.Http.Formatting.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.Helpers.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.Http.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.Http.WebHost.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.Mvc.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.Optimization.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.Providers.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.Razor.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.WebPages.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\WebGrease.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\EntityFramework.xml
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\Newtonsoft.Json.xml
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Net.Http.Formatting.xml
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.Helpers.xml
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.Http.xml
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.Http.WebHost.xml
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.Mvc.xml
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.Razor.xml
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.WebPages.xml
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\obj\Debug\ProductStore.csprojResolveAssemblyReference.cache
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\obj\Debug\ProductStore.dll
+C:\Users\iantoniu\Downloads\ASP. NET Web API Tutorial 02 CRUD Operations\C#\ProductStore\obj\Debug\ProductStore.pdb
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\ProductStore.dll.config
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\ProductStore.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\ProductStore.pdb
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\Antlr3.Runtime.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\EntityFramework.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\Microsoft.Web.Infrastructure.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\Newtonsoft.Json.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Net.Http.Formatting.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.Helpers.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.Http.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.Http.WebHost.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.Mvc.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.Optimization.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.Providers.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.Razor.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.WebPages.Deployment.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.WebPages.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.WebPages.Razor.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\WebGrease.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\EntityFramework.xml
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\Newtonsoft.Json.xml
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Net.Http.Formatting.xml
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.Helpers.xml
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.Http.xml
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.Http.WebHost.xml
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.Mvc.xml
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.Razor.xml
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.WebPages.xml
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.WebPages.Deployment.xml
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Web.WebPages.Razor.xml
+c:\Users\iantoniu\Downloads\test\ProductStore\obj\Debug\ProductStore.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\obj\Debug\ProductStore.pdb
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Json.dll
+c:\Users\iantoniu\Downloads\test\ProductStore\bin\System.Json.xml
+c:\Users\iantoniu\Downloads\test\ProductStore\obj\Debug\ProductStore.csprojResolveAssemblyReference.cache
+d:\InternalTrainnig\ProductStore\ProductStore\bin\ProductStore.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\ProductStore.pdb
+d:\InternalTrainnig\ProductStore\ProductStore\bin\Antlr3.Runtime.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\EntityFramework.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\Microsoft.Web.Infrastructure.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\Newtonsoft.Json.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Json.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Net.Http.Formatting.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.Helpers.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.Http.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.Http.WebHost.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.Mvc.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.Optimization.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.Providers.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.Razor.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.WebPages.Deployment.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.WebPages.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.WebPages.Razor.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\WebGrease.dll
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Json.xml
+d:\InternalTrainnig\ProductStore\ProductStore\bin\EntityFramework.xml
+d:\InternalTrainnig\ProductStore\ProductStore\bin\Newtonsoft.Json.xml
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Net.Http.Formatting.xml
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.Helpers.xml
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.Http.xml
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.Http.WebHost.xml
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.Mvc.xml
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.Razor.xml
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.WebPages.xml
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.WebPages.Deployment.xml
+d:\InternalTrainnig\ProductStore\ProductStore\bin\System.Web.WebPages.Razor.xml
+d:\InternalTrainnig\ProductStore\ProductStore\obj\Debug\ProductStore.csprojResolveAssemblyReference.cache
+d:\InternalTrainnig\ProductStore\ProductStore\obj\Debug\ProductStore.dll
+d:\InternalTrainnig\ProductStore\ProductStore\obj\Debug\ProductStore.pdb
